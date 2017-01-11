@@ -24,5 +24,9 @@ namespace MvcMovie.Controllers
         {
             return View();
         }
+        public ActionResult SeconFeatureAdded()
+        {
+            return View();
+        }
     }
 }
