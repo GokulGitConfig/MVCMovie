@@ -16,11 +16,16 @@ namespace MvcMovie.Controllers
 
         public ActionResult Welcome(string name,int numTimes )
         {
+
             ViewBag.numTimes = numTimes;
             ViewBag.Message = "Hello "+ name;
             return View();
         }
         public ActionResult NewFeature()
+        {
+            return View();
+        }
+        public ActionResult SeconFeatureAdded()
         {
             return View();
         }
