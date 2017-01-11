@@ -20,5 +20,9 @@ namespace MvcMovie.Controllers
             ViewBag.Message = "Hello "+ name;
             return View();
         }
+        public ActionResult NewFeature()
+        {
+            return View();
+        }
     }
 }
