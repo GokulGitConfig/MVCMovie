@@ -1,2 +1,6 @@
-Hello world! modified
+
+
 new line added
+=======
+Hello world! modified in cloud
+>>>>>>> 8b231f5c438d4c2abd8a3e3b54cdcd4c42a05485
